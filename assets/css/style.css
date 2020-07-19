@@ -12,9 +12,7 @@ html, body{
 	height: 100%;
 }
 
-h4{ 
-    text-align: left;
-}
+
 
 .wrapper{
 	display: flex;
@@ -285,7 +283,9 @@ a .pageNumber{
     visibility: visible;
 }
 
-
+#warn {
+    color: #C83133;
+}
 
 
 

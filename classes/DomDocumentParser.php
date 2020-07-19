@@ -25,6 +25,14 @@ class DomDocumentParser{
     public function getImages(){
         return $this->doc->getElementsByTagName("img");
     }
+
+    public function getVideos(){
+        return $this->doc->getElementsByTagName("video");
+    }
+
+    public function getSource(){
+        return $this->doc->getElementsByTagName("source");
+    }
 }
 
 ?>

@@ -2,6 +2,7 @@
 require_once("config.php");
 require_once("classes/SiteResultsProvider.php");
 require_once("classes/ImageResultsProvider.php");
+require_once("classes/VideoResultsProvider.php");
 if(isset($_GET["term"])){
     $term = $_GET["term"];
 } else {
@@ -53,6 +54,7 @@ if(isset($_GET["type"])){
                 <ul class="tabList">
                     <li class="<?php echo $type == 'sites' ? 'active' : ""; ?>"><a href='<?php echo "search.php?term=$term&type=sites" ?>'>Sites</a></li>
                     <li class='<?php echo $type == 'images' ? 'active' : ""; ?>'><a href='<?php echo "search.php?term=$term&type=images" ?>'>Images</a></li>
+                    <li class='<?php echo $type == 'videos' ? 'active' : ""; ?>'><a href='<?php echo "search.php?term=$term&type=videos" ?>'>Videos</a></li>
                 </ul>
             </div> 
 		</div>
@@ -63,6 +65,9 @@ if(isset($_GET["type"])){
                     $pageSize = 20;
                 } elseif($type == "images"){
                     $resultsProvider = new ImageResultsProvider($con);
+                    $pageSize = 100;
+                } elseif($type == "videos"){
+                    $resultsProvider = new VideoResultsProvider($con);
                     $pageSize = 100;
                 }
                
@@ -116,6 +121,6 @@ if(isset($_GET["type"])){
         </div>
 	</div>
 </body>
-    
+    <!-- <script src="assets/js/index.js"></script> -->
     <script src="assets/js/script.js"></script>
 </html>

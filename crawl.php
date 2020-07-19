@@ -31,6 +31,11 @@ function insertImage($url, $src, $alt, $title){
     return $query->execute();
 }
 
+// function insertVideo($url, $title, $source){
+// //     global $con;
+
+// //     $query = $con->prepare("INSERT INTO videos WHERE");
+// // }
 
 function linkExists($url){
     global $con;
