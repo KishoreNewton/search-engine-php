@@ -20,6 +20,6 @@
 <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <title>Finder</title>
-<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>

@@ -121,6 +121,5 @@ if(isset($_GET["type"])){
         </div>
 	</div>
 </body>
-    <!-- <script src="assets/js/index.js"></script> -->
     <script src="assets/js/script.js"></script>
 </html>
