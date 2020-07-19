@@ -158,6 +158,6 @@ function followLinks($url){
     }
 }
 
-$startUrl = "https://www.pexels.com/";
+$startUrl = $_POST['website'];
 followLinks($startUrl);
 ?>

@@ -12,6 +12,10 @@ html, body{
 	height: 100%;
 }
 
+h4{ 
+    text-align: left;
+}
+
 .wrapper{
 	display: flex;
 	flex-direction: column;

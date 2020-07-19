@@ -1,11 +1,6 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Finder</title>
-<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+<?php
+ require_once('header.php');
+ ?>
 <div class="wrapper indexPage">
 	<div class="mainSection">
 		<div class="logoContainer">
@@ -16,7 +11,7 @@
 				<input type="text" name="term" class="searchBox" required>
 				<div>
 					<input type="submit" value="Search" class="searchButton">
-					<input type="submit" value="Crawl My Website" class="searchButton">
+					<a class="searchButton" href="crawlMySite.php">Crawl My Website</a>
 				</div>
 			</form>
 		</div>
