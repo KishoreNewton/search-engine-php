@@ -28,3 +28,7 @@ https://developers.google.com/youtube/
 ### Add features by Parseing document at 
 
 >classes/DomDocumentParser.php
+
+### SQL File at
+
+>./SQL/findera-z.sql
