@@ -1,8 +1,12 @@
 # SIMPLE SEARCH ENGINE
 
+### Config MySQL and PHP at 
+
+> ./config.php
+
 ### How it works
 
->scheme: http https
+<!-- >scheme: http https
 >host: www.kishorenewton.com
 >
 >
@@ -11,4 +15,4 @@ CASE                       CONVERT
 >/about/aboutUs.php
 >./about/aboutUs.php
 >../about/aboutUs.php
->about/aboutUs.php
+>about/aboutUs.php -->
