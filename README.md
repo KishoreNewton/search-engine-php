@@ -20,7 +20,7 @@
 
 ### ADD YouTube crawling by visiting 
 
-[Docs YouTube]("https://developers.google.com/youtube/")
+https://developers.google.com/youtube/
 
 **And adding features to**
 >classes/VideoResultsProvider.php
